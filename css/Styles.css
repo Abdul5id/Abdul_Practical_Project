@@ -1,0 +1,153 @@
+body {
+ margin-left:10%;
+ margin-right:10%;
+ margin-top:0 auto;
+}
+h1 {
+  font-size: 1.25em;
+  text-align: center;
+  background: black;
+  color: #eee;
+  margin: 0;
+  padding: 0.5em;
+	font-family: Blackadder ITC;
+}
+h2 {
+  margin-top: 0;
+}
+footer a:link,
+footer a:visited {
+  color: #444;
+}
+footer a:hover {
+  color: #888;
+}
+
+main > input,
+section {
+  display: none;
+  padding: 1em;
+  clear: both;
+}
+section footer {
+  position: relative;
+  bottom: 0;
+  background: black;
+  width: 102%;
+  margin-left: -1em;
+}
+section footer p {
+  padding: 0 1em;
+  line-height: 2em;
+  text-align: center;
+	color: white;
+}
+/*
+  displays and styles 'label' tags (for radio button 'input' tags)
+*/
+label {
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: black;
+  line-height: 3em;
+  border-right: 1px solid #444;
+	font-family: Blackadder ITC;
+	font-size: 25px;
+	font-style: bold;
+}
+/* hides the tab text but leaves the icons visible: */
+label span {
+  display: none;
+}
+label:last-child {
+  border-right: none;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+/*
+  Styles label elements (tabs) *only* when they're 'checked'
+*/
+[id^="tab"]:checked + label {
+  background: red;
+  color: #222;
+}
+[id^="tab"]:checked + label .fa {
+  color: blue;
+}
+
+.tab-content {
+  background: #fff;
+}
+.fa {
+  margin-right: 10px;
+}
+.tab_container section * {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+
+  0% { 
+  	opacity: 0;
+  }
+
+  100% { 
+  	opacity: 1;
+  }
+  
+}
+
+.logo{
+	width:15%;
+margin-left:1%;
+
+	
+}
+.slogan{
+	width:30%;
+margin-left:50%;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+  h1 {
+    font-size: 2em;
+  }
+  /* shows the tab text and the icons: */
+  label span {
+    display: inline;
+  }
+	
+.logo{
+ 
+margin-left:0%;
+
+	
+}
+.slogan{
+
+margin-left:50%;
+
+	
+}
+}
