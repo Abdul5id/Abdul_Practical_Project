@@ -1,141 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-	 <meta charset="utf-8">
-  <title>Sole Freedom</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">		
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Me</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>		
-<img class="logo" src="images/Sole.png" alt="Sole Freedom Logo">
-<img class="slogan" src="images/slogan.png" alt="Sole Freedom Slogan">
+<body>
+  <nav>
+    <a href="#page-1">Home</a>
+    <a href="#page-2">About Me</a>
+    <a href="#page-3">Contact Me</a>
+  </nav>
+  <main>
+    <section id="page-1">
+      <h2 id="top">Welcome</h2>
+     
 
-<main class="tab_container">
-    
-   
-    <input id="tab1" type="radio" name="tabs" checked>
-    <label for="tab1"><i class="fa fa-home"></i><span>Home</span></label>
+<div class="Slideshow">
+  <img class="mySlides" src="images/image1.JPG" >
+  <img class="mySlides" src="images/image2.JPG" >
+  <img class="mySlides" src="images/image3.JPG" >
+	<img class="mySlides" src="images/image4.JPG" >
+	</div>
+<p> Welcome and explore the life of Abdul! Across several pages MORE ABOUT ME MORE ABOUT ME MORE 
+ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME</p>
 
-    <input id="tab2" type="radio" name="tabs">
-    <label for="tab2"><i class="fa fa-male"></i><span>Men</span></label>
+<script>
+var myIndex = 0;
+carousel();
 
-    <input id="tab3" type="radio" name="tabs">
-    <label for="tab3"><i class="fa fa-female"></i><span>Women</span></label>
-		
-		<input id="tab4" type="radio" name="tabs">
-    <label for="tab4"><i class="fa fa-tags"></i><span>Sale</span></label>
-		
-		<input id="tab5" type="radio" name="tabs">
-    <label for="tab5"><i class="fa fa-ellipsis-h"></i><span>Coming Soon</span></label>
-		
-		<input id="tab6" type="radio" name="tabs">
-    <label for="tab6"><i class="fa fa-address-book"></i><span>Contact Us</span></label>
-		
-		
-		
-		 <section id="content1" class="tab-content">
-      <header>
-        <h2>Home</h2>
-      </header>
-		
-		   <footer>
-        <p>©Created by Abdulsamad Siddique P15226811</p>
-      </footer>
-    </section>	
-		
-		<section id="content2" class="tab-content">
-      <header>
-        <h2>Men</h2>
-      </header>
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>		 
 
-		   <footer>
-        <p><a href=""></a></p>
-      </footer>
-    </section>	
-		
-		<section id="content3" class="tab-content">
-      <header>
-        <h2>Women</h2>
-      </header>
+<footer>
 
-		   <footer>
-        <p><a href=""></a></p>
-      </footer>
-    </section>	
-		
-		<section id="content4" class="tab-content">
-      <header>
-        <h2>Sale</h2>
-      </header>
-
-		   <footer>
-        <p><a href=""></a></p>
-      </footer>
-    </section>	
-		
-		<section id="content5" class="tab-content">
-      <header>
-        <h2>Coming Soon</h2>
-      </header>
-
-		   <footer>
-        <p><a href=""></a></p>
-      </footer>
+</footer>
+      <a class="top" href="#page-1">TOP</a>
     </section>
 
-			<section id="content6" class="tab-content">
-      <header>
-        <h2>Contact Us</h2>
-      </header>
-			
-			
-	<form>
-  Name:
-  <input type="text" Name="Name">
-  <br>
-  <br>
-  Email:
-  <input type="text" Name="Email" size="35">
-  <br>
-  <br>
-  Subject:
-  <input type="text" Name="Subject">
-  <br>
-  <br>
-  Message: <br>  <textarea  rows="4" cols="50">
-  </textarea>
-  <br>
-  <br>
-  <button type="button" onclick="alert('Thanks! Your message has been submitted and you will be contacted as soon as possible ☻')">Submit</button>
-  <input type="reset" value="Reset">
-  </form>
+    <section id="page-2">
+      <h2>About Me</h2>
+ 
+      <a class="top" href="#page-1">TOP</a>
+    </section>
 
-	
-	<!-- <!-- <table border="0" style="width:50%" align="center"> --> -->
-  <!-- <!-- <tr> --> -->
-	<!-- <!-- <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9686.836268867266!2d-1.139599!3d52.6291014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd91c9efcc41fdd79!2sDe+Montfort+University!5e0!3m2!1sen!2suk!4v1461155743626" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></td> --> -->
-    <!-- <!-- <td><img src="../images/address.png" width="350" height="300"  alt="DMU Address"></td> --> -->
-  <!-- <!-- </tr> --> -->
+    <section id="page-3">
+      <h2>Contact Me</h2>
+    
   
-<!-- </table> -->
 
-		   <footer>
-        <p>©Created by Abdulsamad Siddique P15226811</p>
-      </footer>
-    </section>	
-		
-		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-
-	</main>
+  
+    
+      <a class="top" href="#page-1">TOP</a>
+    </section>
+  </main>
+	
+	<footer>©Created by Abdulsamad Siddique P15226811 2017</footer>
 </body>
 </html>

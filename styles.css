@@ -1,0 +1,90 @@
+body {
+  background:black;
+	margin: 0;
+  font-size: 1.25em;
+	
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+	font-family: georgian;
+
+}
+nav {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  padding: 6px;
+  background: #469BC3;
+  position: fixed;
+  width: 100%;
+}
+nav a {
+  width: 5em;
+		padding: 6px 16px;
+
+}
+nav a:hover {
+  color: #fff;
+}
+
+.top {
+  display: block;
+  text-align: right;
+  line-height: 1.75em;
+  padding-right: 0.5em;
+}
+.top:hover {
+  background: #469BC3;
+  color: #fff;
+}
+main {
+  /* display: block; */
+  /* /* height cannot be auto or 100% */ */
+  /* height: 1000px; */
+  /* /* overflow-y can also be scroll */ */
+  /* overflow-y: scroll; */
+  /* scroll-behavior: smooth; */
+}
+section {
+  padding: 0 0.5em;
+	
+}
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding-top: 0.75em;
+	color: #469BC3;
+	font-family: Blackadder ITC;
+}
+p a:hover {
+  text-decoration: underline;
+	
+}
+
+@media screen and (min-width: 600px) {
+  section {
+    padding: 0 2em;
+  }
+  h2 {
+    font-size: 4em;
+  }
+}
+
+.mySlides {
+	display:none;
+	width:25%;
+	height: 400px;
+	margin-left:60%;
+	margin-top: -10%;
+}
+
+footer {
+	color: #469BC3;
+	text-align: center; 
+}
+
+p{
+	color: #468BC3;
+}
