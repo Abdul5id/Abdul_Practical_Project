@@ -1,71 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>All About Me</title>
-  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+	 <meta charset="utf-8">
+  <title>Abdulsamad Siddique</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">		
 </head>
-<body>
-  <nav>
-    <a href="#page-1">Home</a>
-    <a href="#page-2">About Me</a>
-    <a href="#page-3">Contact Me</a>
-  </nav>
-  <main>
-    <section id="page-1">
-      <h2 id="top">Welcome</h2>
-     
+<body>		
+<h1>Abdulsamad <img src="images/bit.png" alt="" /> Siddique</h1>
 
-<div class="Slideshow">
-  <img class="mySlides" src="images/image1.JPG" >
-  <img class="mySlides" src="images/image2.JPG" >
-  <img class="mySlides" src="images/image3.JPG" >
-	<img class="mySlides" src="images/image4.JPG" >
-	</div>
-<p> Welcome and explore the life of Abdul! Across several pages MORE ABOUT ME MORE ABOUT ME MORE 
-ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME MORE ABOUT ME</p>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>		 
-
-<footer>
-
-</footer>
-      <a class="top" href="#page-1">TOP</a>
-    </section>
-
-    <section id="page-2">
-      <h2>About Me</h2>
- 
-      <a class="top" href="#page-1">TOP</a>
-    </section>
-
-    <section id="page-3">
-      <h2>Contact Me</h2>
+<main class="tab_container">
     
-  
+   
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1"><i class="fa fa-home"></i><span>Home</span></label>
 
-  
-    
-      <a class="top" href="#page-1">TOP</a>
-    </section>
-  </main>
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2"><i class="fa fa-male"></i><span>Profile</span></label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3"><i class="fa fa-graduation-cap"></i><span>Studies</span></label>
+		
+	<input id="tab4" type="radio" name="tabs">
+    <label for="tab4"><i class="fa fa-address-book"></i><span>Contact</span></label>
+		
+		 <section id="content1" class="tab-content">
+      <header>
+	          <h2>Profile</h2>
+
+      </header>
+		
+		  <div class="slideshow">
+    <img src="images/queens.JPG" alt="" />
+    <img src="images/gateway.JPG" alt="" />
+    <img src="images/image2.jpg" alt="" />
+    <img src="images/work.png" alt="" />
+  </div>
+		
 	
-	<footer>©Created by Abdulsamad Siddique P15226811 2017</footer>
+		   <footer>
+        <p>©Created by Abdulsamad Siddique P15226811</p>
+      </footer>
+    </section>	
+		
+		<section id="content2" class="tab-content">
+      <header>
+        <h2>Profile</h2>
+      </header>
+		
+<img src="images/me.png" alt="" />		
+			
+			
+
+        <footer>
+        <p>©Created by Abdulsamad Siddique P15226811</p>
+      </footer>
+ 
+    </section>	
+		
+		<section id="content3" class="tab-content">
+      <header>
+        <h2>Studies</h2>
+      </header>
+
+	    <footer>
+        <p>©Created by Abdulsamad Siddique P15226811</p>
+      </footer>
+    </section>	
+		
+		<section id="content4" class="tab-content">
+      <header>
+        <h2>Contact Me</h2>
+      </header>
+	<form>
+  Name:
+  <input type="text" Name="Name">
+  <br>
+  <br>
+  Email:
+  <input type="text" Name="Email" size="35">
+  <br>
+  <br>
+  Subject:
+  <input type="text" Name="Subject">
+  <br>
+  <br>
+  Message: <br>  <textarea  rows="4" cols="50">
+  </textarea>
+  <br>
+  <br>
+  <button type="button" onclick="alert('Thanks! Your message has been submitted and you will be contacted as soon as possible ☻')">Submit</button>
+  <input type="reset" value="Reset">
+  </form>
+    <footer>
+        <p>©Created by Abdulsamad Siddique P15226811</p>
+      </footer>
+    </section>	
+
+	</main>
 </body>
 </html>
