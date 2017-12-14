@@ -1,7 +1,8 @@
 body {
- margin-left:10%;
- margin-right:10%;
- margin-top:0 auto;
+ /* margin-left:10%; */
+ /* margin-right:10%; */
+ margin:0 auto;
+
 }
 h1 {
   font-size: 1.25em;
@@ -10,7 +11,7 @@ h1 {
   color: #000;
   margin: 0;
   padding: 0.5em;
-	font-family: Arial Black;
+  font-family: Arial Black;
 }
 h2 {
   margin-top: 0;
@@ -31,14 +32,14 @@ section {
   padding: 1em;
   clear: both;
 }
-section footer {
+footer {
   position: relative;
   bottom: 0;
   background: black;
   width: 102%;
   margin-left: -1em;
 }
-section footer p {
+footer p {
   padding: 0 1em;
   line-height: 2em;
   text-align: center;
@@ -109,7 +110,9 @@ label:last-child {
   }
   
 }
-
+.bit{
+	width:69%;
+}
 }
 .slideshow {
   margin: 2em auto 1em;
@@ -121,7 +124,7 @@ label:last-child {
 
 .slideshow img {
   position: absolute;
-  width: 800px;
+  width: 90%;
   animation: round 16s infinite;
   opacity: 0;
 }
@@ -141,33 +144,53 @@ img:nth-child(3) { animation-delay: 4s; }
 img:nth-child(4) { animation-delay: 0s; }
 
 
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 2em;
-  }
-  /* shows the tab text and the icons: */
-  label span {
-    display: inline;
-  }
-  }
+
+
   
-  @media only screen and (min-width: 300px) {
+@media only screen and (min-width: 500px) {
   h1 {
     font-size: 2em;
   }
   /* shows the tab text and the icons: */
   label span {
     display: inline;
-	
-	
   }
+
+body{
+	margin-left:10%;
+	margin-right:10%;
+ }
+ 
 slideshow {
   margin: 2em auto 1em;
   overflow: hidden;
   position: relative;
 }
-	.slideshow{
+.slideshow img {
+
+  width: 50%;
+  margin-left:10%;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+.bit{
+	width:10%;
+}
+
+
+
+}	
+
+.slideshow{
 		height:800px;
 	}
+}
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+ 
+
+  
+  
 }
 
