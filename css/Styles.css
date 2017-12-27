@@ -1,6 +1,4 @@
 body {
- /* margin-left:10%; */
- /* margin-right:10%; */
  margin:0 auto;
 
 }
@@ -111,40 +109,92 @@ label:last-child {
   
 }
 .bit{
-	width:69%;
+	width:20%;
 }
+.form{
+background: #D0D0D0;	
+text-align: center;
+
+
 }
-.slideshow {
-  margin: 2em auto 1em;
-  width: 600px; /* altering this breaks the centering??? */
-  height: 200px;
-  overflow: hidden;
-  position: relative;
+.mySlides {
+	width:100%;
 }
 
-.slideshow img {
-  position: absolute;
-  width: 90%;
-  animation: round 16s infinite;
+#map{
+height:400px;
+}
+
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+#jsshowhide p {
+  display: none;
+	
+}
+#jsshowhide h3 {
+  cursor: pointer;
+  display: inline;
+}
+.plus {
+  display: inline;
+}
+.minus {
+  display: none;
+}
+#jsshowhide{
+	background-color:#D0D0D0;
+}
+#searchForm{
+	background-color:#D0D0D0;
+}
+
+.unclear{
+	background-color:#D0D0D0;
+}
+figure {
+  width: 200px;
+ overflow: hidden;
+}
+
+figure img {
+  
+  height: 150px;
+  margin-bottom: -4em;
+  display: block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
   opacity: 0;
+  transition: all .5s;
 }
 
-@keyframes round {
-  25% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-  }
+/* 
+  These styles are applied to the `figcaption` element when hovering 
+  over the`figure` element. The `transition` property on `figcaption` 
+  above is then applied to `all` these hover styles, over 0.5 seconds.
+*/
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
 }
 
-img:nth-child(1) { animation-delay: 12s; }
-img:nth-child(2) { animation-delay: 8s; }
-img:nth-child(3) { animation-delay: 4s; }
-img:nth-child(4) { animation-delay: 0s; }
 
 
 
+
+/* } */
 
   
 @media only screen and (min-width: 500px) {
@@ -176,6 +226,30 @@ slideshow {
 .bit{
 	width:10%;
 }
+figure {
+  width: 250px;
+	padding: 50px 200px;
+ overflow: hidden;
+}
+figure img {
+  width:100%;
+  height: 300px;
+  margin-bottom: -4em;
+  display: block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
 
 
 
@@ -189,6 +263,19 @@ slideshow {
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
  
+.form{
+background: #D0D0D0;	
+text-align: center;
+width:50%;
+}
+.mySlides {
+	
+max-width:1000px;
+
+}
+
+
+
 
   
   

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="css/Styles.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 	 <meta charset="utf-8">
   <title>Abdulsamad Siddique</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -26,16 +26,14 @@
     <label for="tab4"><i class="fa fa-address-book"></i><span>Contact</span></label>
 		
 		 <section id="content1" class="tab-content">
-      <header>
-	          <h2>Profile</h2>
+    	
+		 
+<div class="w3-content w3-section">
+  <img class="mySlides" src="images/me.jpg" alt="abdul">
+  <img class="mySlides" src="images/dmu.JPG" alt="dmu1">
+  <img class="mySlides" src="images/work.png" alt="primark">
+</div>
 
-      </header>
-		
-		  <div class="slideshow">
-        <img src="images/gateway.JPG" alt="gateway" />
-<img src="images/me.jpg" alt="me" />
-     <img src="images/work.png" alt="work" />
-  </div>
 		
 	
 
@@ -43,55 +41,107 @@
 		
 		<section id="content2" class="tab-content">
       <header>
-        <h2>Profile</h2>
+        <h2>Profile</h2>	
       </header>
 		
 <img class="bit" src="images/me.png" alt="" />		
 			
 			
-
-  
- 
+<div class="unclear">
+   <figure>
+      <img src="images/dolphin.png" alt="placeholder"/>
+      <figcaption>
+        A caption with more details about the image, in this case up to three lines but no more
+      </figcaption>
+    </figure>
+ </div>
     </section>	
 		
 		<section id="content3" class="tab-content">
-      <header>
+		<div id="jsshowhide">
+      	
         <h2>Studies</h2>
-      </header>
+      <article>
+        <span id="i01js"></span>
+        <h3 id="q01js">Heading 1</h3>
+        <p id="a01js">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex eros, scelerisque nec blandit at, viverra luctus eros. Mauris et lacinia dui, non consequat lectus. Nunc ac fringilla arcu, sed pulvinar magna. Donec eu risus finibus, dictum nisi non, venenatis ex. Fusce vulputate sit amet nulla ut lacinia. Fusce id aliquam turpis, non tincidunt libero. Praesent accumsan nisl eu purus aliquam, in molestie ante placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla imperdiet elit in ligula euismod volutpat. Nullam aliquet, tellus id ultricies dictum, nibh arcu sagittis quam, gravida consectetur mi leo id quam. Suspendisse potenti. Vestibulum quis rutrum mauris. Etiam commodo lacinia turpis non fermentum. Maecenas bibendum condimentum sem et tincidunt. Ut suscipit interdum justo, et faucibus justo scelerisque a. </p>
+      </article>
 
-	
+      <article>
+        <span id="i02js"></span>
+        <h3 id="q02js">Heading 2</h3>
+        <p id="a02js" class="hidden">Nullam consequat libero eget mi mattis, vitae vulputate lacus vehicula. Nullam elit leo, lobortis at felis non, viverra egestas orci. Praesent sed iaculis ligula, vitae egestas risus. Donec malesuada lacus sem, eget finibus ante ultricies eget. Cras nec massa aliquet, pharetra augue et, pulvinar mauris. Praesent placerat, velit sit amet maximus volutpat, eros urna pellentesque dui, in imperdiet nulla nisl faucibus enim. Nulla in augue turpis. Maecenas at metus luctus, porta nulla ac, fringilla turpis. Aenean sollicitudin posuere facilisis. Etiam fermentum neque sit amet leo ullamcorper, in pellentesque augue gravida. Nam varius ultricies hendrerit. </p>
+      </article>
+
+      <article>
+        <span id="i03js"></span>
+        <h3 id="q03js">Heading 3</h3>
+        <p id="a03js" class="hidden">Vivamus ac urna sed justo ullamcorper consectetur at nec leo. Vivamus rhoncus consequat nulla ut commodo. Curabitur ut mauris non turpis laoreet volutpat. Maecenas et dui sed dolor molestie sagittis a ornare lectus. Suspendisse tortor augue, accumsan ut erat at, semper tincidunt metus. Maecenas gravida sapien non auctor rutrum. Nullam vehicula ultricies pellentesque. Suspendisse vel fringilla lorem. Integer fermentum lobortis erat sed mattis. </p>
+      </article>
+			
+			</div>
+			
+			<form id="searchForm">
+    <p for="wikiQuery">Search Wikipedia for: </p>
+    <input id="wikiQuery" type="text" placeholder="">
+    <input type="submit">
+  </form>
+
+  <ul id="demo"></ul>
+			
     </section>	
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		<section id="content4" class="tab-content">
       <header>
         <h2>Contact Me</h2>
       </header>
-	<form>
-  Name:
-  <input type="text" Name="Name">
+	<div class="form">
+	<form><br>
+  <input type="text" Name="Name" placeholder="First Name">
   <br>
   <br>
-  Email:
-  <input type="text" Name="Email" size="35">
+  <input type="text" Name="Name" placeholder="Surname">
   <br>
   <br>
-  Subject:
-  <input type="text" Name="Subject">
+  <input type="text" Name="Email" size="35" placeholder="Email">
   <br>
   <br>
-  Message: <br>  <textarea  rows="4" cols="50">
+  <input type="text" Name="Subject" placeholder="Subject">
+  <br>
+	<p>Place your message here...<p>
+  <textarea  rows="2" cols="30">
   </textarea>
   <br>
   <br>
   <button type="button" onclick="alert('Thanks! Your message has been submitted and you will be contacted as soon as possible ☻')">Submit</button>
   <input type="reset" value="Reset">
-  </form>
-  
-    </section>	
+ <br><br> </form>
+</div>
+
+ <h1> <i class="fa fa-location-arrow" aria-hidden="true">Find Us Here </h1></i>
+
+  <div id="map">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW4kCUxGvc2Zum0XxTf2cjeJa0AKyDqdw&callback=initMap"></script>
+</div>
+ 
+  </section>	
 
 	</main>
 			   <footer>
         <p>©Created by Abdulsamad Siddique P15226811</p>
-      </footer>
+      </footer> 
+		 <script src="js/radiobutton.js"></script>
+	  <script src="js/scripts.js"></script>
+		<script src="js/slideshow.js"></script>
+		<script src="js/api.js"></script>
+
 </body>
 </html>
