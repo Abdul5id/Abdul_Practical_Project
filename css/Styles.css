@@ -111,6 +111,7 @@ label:last-child {
 .bit{
 	width:20%;
 }
+
 .form{
 background: #D0D0D0;	
 text-align: center;
@@ -133,6 +134,7 @@ height:400px;
 }
 #jsshowhide p {
   display: none;
+  margin-left:-100%;
 	
 }
 #jsshowhide h3 {
@@ -147,17 +149,28 @@ height:400px;
 }
 #jsshowhide{
 	background-color:#D0D0D0;
+	
 }
+.radiobutton{
+	margin-left:35%;
+	
+}
+
+
 #searchForm{
 	background-color:#D0D0D0;
 }
 
-.unclear{
+.rollover{
 	background-color:#D0D0D0;
 }
 figure {
-  width: 200px;
- overflow: hidden;
+ 
+    width: 100px;
+	background-repeat: no-repeat;
+    background-size: 0px 0px;
+	margin-left:35%;
+	padding-top:4%;
 }
 
 figure img {
@@ -179,6 +192,8 @@ figcaption {
   transition: all .5s;
 }
 
+
+
 /* 
   These styles are applied to the `figcaption` element when hovering 
   over the`figure` element. The `transition` property on `figcaption` 
@@ -189,12 +204,95 @@ figure:hover figcaption {
   /* background: rgba( 255, 255, 255, .78 ); */
   opacity: .78;
 }
+.comp{
+	width:100%;
+	height:200px;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+	margin-left:30%;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-snapchat {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-snapchat:hover {
+    background-color: #fffc00;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.dmu{
+	width:100%;
+}
+.info{
+	margin-left:30%;
+	
+}
+
+.medata{
+margin-left:10%;
+width:90%;
+}
 
 
 
-
-
-/* } */
 
   
 @media only screen and (min-width: 500px) {
@@ -206,10 +304,6 @@ figure:hover figcaption {
     display: inline;
   }
 
-body{
-	margin-left:10%;
-	margin-right:10%;
- }
  
 slideshow {
   margin: 2em auto 1em;
@@ -227,9 +321,11 @@ slideshow {
 	width:10%;
 }
 figure {
-  width: 250px;
-	padding: 50px 200px;
+  width: 160px;
+	padding: 50px 50px;
  overflow: hidden;
+  display: inline-block;
+  margin-left:0%;
 }
 figure img {
   width:100%;
@@ -250,6 +346,14 @@ figcaption {
   transition: all .5s;
 }
 
+.medata{
+margin-left:10%;
+width:90%;
+}
+.radiobutton{
+	margin-left:50%;
+	font-size:1em;
+}
 
 
 
@@ -258,26 +362,73 @@ figcaption {
 .slideshow{
 		height:800px;
 	}
-}
+
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
  
+ body{
+	 	margin-left:10%;
+	margin-right:10%;
+ }
+
+.mySlides {
+width:100%;
+
+}
+.comp{
+	
+	height:500px;
+}
+
 .form{
 background: #D0D0D0;	
 text-align: center;
-width:50%;
+width:100%;
 }
-.mySlides {
-	
-max-width:1000px;
-
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+	margin-left:84%;
+}
+.dmu{
+	width:50%;
+	margin-left:25%;
+}
+.radiobutton{
+	margin-left:50%;
+	font-size:1em;
 }
 
+figure {
+  width: 160px;
+	padding: 50px 50px;
+ overflow: hidden;
+  display: inline-block;
+  margin-left:0%;
+}
+figure img {
+  width:100%;
+  height: 300px;
+  margin-bottom: -4em;
+ 
+}
 
-
-
-  
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+.medata{
+margin-left:8%;
+ 
   
 }
 
