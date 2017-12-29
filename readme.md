@@ -7,10 +7,22 @@ My original idea was to create a e-commerce website where you can purchase shoes
 ## Development Process
 As mentioned in my specification I came across several issues in my earlier designs mainly to do with responsiveness. Once I started on my actual website. I had several errors accross the way some being the brackets missing, code that was used from a third party was incorrectly copied. When using the code from blackboard, there was some amendments needed to make it suitable to my wesbite which I done. I have used javascript, css as required within my wesbsite and also used 2 APIs.
 
+## Navigation Used
+<img src="" width="550px" alt="Desktop View"/>
+When creating a website it is advised to use some form of a navigation model to guide users through the website, after being introduced to various navigation models over my study time such as hybrid, linear, Hierarchical and full web. After reading the advantages and disadvantages of the different models I feel it is best to use full web navigation which is commonly used and this model allows each page to be linked from each other and the home page and it is fully functional. Though there is a risk of getting lost, it will be very rare in my case as I plan to have a simple, easy look of page which is not cluttered and easily shown of where to navigate to and from also my website will be a simple one page website with some content on each tab, nothing extreme with too much. 
+
+
 ## Validation (HTML, CSS, JS)
+I have come accross a few errors on each and have tried my level best and overcome many of them.
 
 
 ## Paper Designs
+# Desktop View
+<img src="" width="550px" alt="Desktop View"/>
+# Tablet View
+
+# Mobile View
+
 
 ## Api Used
 Within my website I have used 2 apis, one is the wikipedia search and the second is the google maps, there is an issue with the google maps. When you view the page that has the google api for the first time, it sometimes does'nt work and you need to refresh it once or twice to make sure it works. 
