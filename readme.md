@@ -18,7 +18,7 @@ I have come accross a few errors on each and have tried my level best and overco
 
 ## Paper Designs
 # Desktop View
-<img src="" width="550px" alt="Desktop View"/>
+<img src="https://user-images.githubusercontent.com/25173655/34443543-c92d6c98-ecbf-11e7-972a-cc5ab356a4d7.JPG" width="550px" alt="Desktop View"/>
 # Tablet View
 
 # Mobile View
