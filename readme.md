@@ -5,7 +5,9 @@
 My original idea was to create a e-commerce website where you can purchase shoes, I started developing this and then realised the way I am creating this doesn’t suit the marking specs required as I was creating in desktop view, but it had to be responsive over several platforms. To try make it responsive led to everything going pear shaped, so I decided to start again using a template from Dave’s github and make a profile on me, but as I done this I wasn’t to keen and some areas were not responsive well enough. Finally I decided another web design which I stuck with throughout till the end, it still is a profile on me but responsive with css and JavaScript used along with apis.
 
 ## Development Process
-As mentioned in my specification I came across several issues in my earlier designs mainly to do with responsiveness. Once I started on my actual website. I had several errors accross the way some being the brackets missing, code that was used from a third party was incorrectly copied. When using the code from blackboard, there was some amendments needed to make it suitable to my wesbite which I done. I have used javascript, css as required within my wesbsite and also used 2 APIs.
+As mentioned in my specification I came across several issues in my earlier designs mainly to do with responsiveness. Once I started on my actual website. I had several errors accross the way some being the brackets missing, code that was used from a third party was incorrectly copied. When using the code from blackboard, there was some amendments needed to make it suitable to my wesbite which I done. I have used javascript, css as required within my wesbsite and also used 2 APIs. 
+
+One issue I had when commiting my work to github, for some reason my stylesheet naming would change to a capital S, so I have to rename it in the index.html link so it works.
 
 ## Navigation Used
 <img src="https://user-images.githubusercontent.com/25173655/34443638-584e8362-ecc0-11e7-8b05-931e9658de52.PNG" width="550px" alt="Desktop View"/>
