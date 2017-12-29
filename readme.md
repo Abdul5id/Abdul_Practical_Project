@@ -25,10 +25,12 @@ I have come accross a few errors on each and have tried my level best and overco
 # Desktop View
 <img src="https://user-images.githubusercontent.com/25173655/34443543-c92d6c98-ecbf-11e7-972a-cc5ab356a4d7.JPG" width="550px" alt="Desktop View"/>
 # Tablet View
+
 <img src="https://user-images.githubusercontent.com/25173655/34443597-1ce85c30-ecc0-11e7-9c72-34b2a7010126.JPG" width="550px" alt="Tablet View"/>
 # Mobile View
+
 <img src="https://user-images.githubusercontent.com/25173655/34443600-222ef32a-ecc0-11e7-95c0-d6786d0f6f0c.JPG" width="550px" alt="Mobile View"/>
-## Api Used
+# Api Used
 Within my website I have used 2 apis, one is the wikipedia search and the second is the google maps, there is an issue with the google maps. When you view the page that has the google api for the first time, it sometimes does'nt work and you need to refresh it once or twice to make sure it works. 
 
 ## References
